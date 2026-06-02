@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "330712972018",
+    "project_id": "ilc-tamil-radio",
+    "storage_bucket": "ilc-tamil-radio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330712972018:android:4e607cbd7615e22a992e6b",
+        "android_client_info": {
+          "package_name": "com.techunk.ilctamilradio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330712972018-d95tvk40fi6kh2pamm966kt3j77ht4gf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ6YTF5MamHDN4MrNhphC2oSs7SzDFoVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330712972018-d95tvk40fi6kh2pamm966kt3j77ht4gf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

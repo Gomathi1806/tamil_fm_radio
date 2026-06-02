@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.HomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/grey"
+        android:scaleType="fitCenter"
+        android:foreground="#CC000000"/>
+
+    <ImageView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/adView"
+        android:layout_margin="10dp"
+        android:id="@+id/recyclerView"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        tools:itemCount="3"
+        android:layout_above="@id/admobView"
+        tools:listitem="@layout/item_social_view" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/admobView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        android:visibility="gone"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/logoIv"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ads_banner"/>-->
+
+</RelativeLayout>

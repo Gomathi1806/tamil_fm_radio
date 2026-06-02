@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drawr_home"
+        android:icon="@drawable/ic_baseline_play_circle_filled_24"
+        android:title="Now Playing" />
+
+    <item
+        android:id="@+id/drawer_www"
+        android:icon="@drawable/ic_baseline_public_24"
+        android:title="Website" />
+
+    <item
+        android:id="@+id/drawer_fb"
+        android:icon="@drawable/ic_facebook"
+        android:title="Facebook" />
+
+
+   <!-- <item
+        android:id="@+id/drawer_yt"
+        android:icon="@drawable/ic_youtube"
+        android:title="Youtube" />
+
+    <item
+        android:id="@+id/drawer_tw"
+        android:icon="@drawable/ic_twitter"
+        android:title="Twitter" />-->
+
+    <item
+        android:id="@+id/drawer_ins"
+        android:icon="@drawable/ic_instagram"
+        android:title="Instagram" />
+
+   <!-- <item
+        android:id="@+id/drawer_wp"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="Call" />
+
+    <item
+        android:id="@+id/drawer_about"
+        android:icon="@drawable/ic_baseline_email_24"
+        android:title="Email" />-->
+
+</menu>

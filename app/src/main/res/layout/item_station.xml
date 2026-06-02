@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorRadioBg"
+    android:id="@+id/stationTitle"
+    android:paddingLeft="32dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:textSize="18sp"
+    tools:text="Title"
+    android:gravity="center_vertical"
+    android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+    android:textColor="@color/white">
+
+</TextView>

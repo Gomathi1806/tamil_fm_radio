@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ED1B24</color>
+    <color name="colorPrimaryDark">#ED1B24</color>
+    <color name="colorAccent_old">#ED1B24</color>
+    <color name="colorAccent">#ED1B24</color>
+    <color name="colorAccentPurple">#ED1B24</color>
+    <color name="eq_color">#F79421</color>
+    <color name="darkPurple">#003130</color>
+    <color name="colorBg">#EDE814</color>
+    <color name="lightGreen">#acd89c</color>
+    <color name="darkBlue">#1143c2</color>
+    <color name="lightBlue">#5181bb</color>
+    <color name="textColor">#4a8b5b</color>
+    <color name="colorRadioBg">#06353f</color>
+    <color name="colorControlBg">#47C0F0</color>
+    <color name="colorIcoTint">#e09e2f</color>
+    <color name="colorDivider">#909398</color>
+    <color name="white">#ffffff</color>
+
+    <!--button play pause color-->
+    <color name="colorFab">#009688</color>
+
+    <!--album art border color-->
+    <color name="colorArtBorder">#e2e2e2</color>
+
+    <!--swipe down refresh animation color-->
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+
+    <!--social tab color-->
+    <color name="tabIndicatorColor">#FFFFFF</color>
+    <color name="tabSelectedTextColor">#FFFFFF</color>
+    <color name="tabTextColor">#f1f1f1</color>
+
+    <color name="black">#000000</color>
+    <color name="grey">#c7c7c7</color>
+    <color name="black_more_translucent">#99000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="bg_overlay">#E9000000</color>
+
+    <color name="solid_light_colorbk">#343539</color>
+    <color name="solid_light_colorbk1">#28292C</color>
+    <color name="solid_light_color">#46474B</color>
+    <color name="solid_dark_colorbk">#161719</color>
+    <color name="solid_dark_color">#212226</color>
+</resources>
